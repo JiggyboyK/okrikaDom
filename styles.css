@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box box-sizing: border-box; */
+    /* font-family: 'Roboto' */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 1100px;
+}
+
+.overlay2 li {
+    display: inline-block;
+    justify-content: center;
+    color: brown;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.image {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.add-cart {
+    /* position: absolute; */
+    /* width: 100%; */
+    background-color: darkgray;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0;
+
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4, {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration:none;
+
+
+}
+
+/* .cart{
+    color: black;
+} */
+/* header{
+    background-image: url(/okrika\ wearss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative; */
+}
+/* .overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0 auto;
+    left: 0 auto;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: rgb(10,10,10,0.3);
+    display:;
+    justify-content: center;
+
+} */
+
+
+/* .overlay2 li {
+    display: inline-block;
+    background-color:none;
+
+} */
